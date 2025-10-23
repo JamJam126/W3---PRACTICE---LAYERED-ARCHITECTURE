@@ -1,45 +1,61 @@
 {
-	"id": "quiz-1",
-	"questions": [
-		{
-			"id": "q1",
-			"title": "What is the capital of France?",
-			"choices": [
-				"Paris",
-				"London",
-				"Berlin"
-			],
-			"goodChoice": "Paris",
-			"points": 1
-		},
-		{
-			"id": "q2",
-			"title": "What is 2 + 2?",
-			"choices": [
-				"3",
-				"4",
-				"5"
-			],
-			"goodChoice": "4",
-			"points": 1
-		}
-	],
-	"players": [
-		{
-			"id": "p1",
-			"name": "Alice",
-			"answers": [
-				{
-					"id": "a1",
-					"questionId": "q1",
-					"answerChoice": "Paris"
-				},
-				{
-					"id": "a2",
-					"questionId": "q2",
-					"answerChoice": "4"
-				}
-			]
-		}
-	]
+  "id": "quiz-1",
+  "questions": [
+    {
+      "id": "q1",
+      "title": "What is the capital of France?",
+      "choices": [
+        "Paris",
+        "London",
+        "Berlin"
+      ],
+      "goodChoice": "Paris",
+      "points": 1
+    },
+    {
+      "id": "q2",
+      "title": "What is 2 + 2?",
+      "choices": [
+        "3",
+        "4",
+        "5"
+      ],
+      "goodChoice": "4",
+      "points": 1
+    }
+  ],
+  "players": [
+    {
+      "id": "p1",
+      "name": "Alice",
+      "answers": [
+        {
+          "id": "a1",
+          "questionId": "q1",
+          "answerChoice": "Paris"
+        },
+        {
+          "id": "a2",
+          "questionId": "q2",
+          "answerChoice": "4"
+        }
+      ]
+    },
+    {
+      "id": "4a2ce943-d6c4-49c9-925b-9644c45138f0",
+      "name": "Jam",
+      "answers": [
+        {
+          "id": "44e5633a-4a88-456a-bf28-034faf89b2a2",
+          "questionId": "q1",
+          "answerChoice": "Paris"
+        },
+        {
+          "id": "624076da-6f08-4211-8a31-ceeb5eafaec2",
+          "questionId": "q2",
+          "answerChoice": "5"
+        }
+      ]
+    }
+  ]
 }

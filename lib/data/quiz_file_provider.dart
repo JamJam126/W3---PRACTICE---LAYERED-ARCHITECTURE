@@ -14,4 +14,11 @@ class QuizRepository {
 
     return Quiz.fromJson(data);
   }
+
+  void writeQuiz(Quiz quiz) {
+    final file = File(filePath);
+    const encoder = JsonEncoder.withIndent('  '); 
+    final jsonString = encoder.convert(quiz.toJson());
+    file.writeAsStringSync(jsonString);
+  }
 }

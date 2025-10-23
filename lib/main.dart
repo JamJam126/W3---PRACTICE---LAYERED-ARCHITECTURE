@@ -26,4 +26,6 @@ void main() {
   // Quiz quiz = Quiz(questions: questions);
   QuizConsole console = QuizConsole(quiz: quiz);
   console.startQuiz();
+
+  repo.writeQuiz(quiz);
 }
